@@ -45,6 +45,6 @@ if (MSVC)
                           LINK_FLAGS "/ENTRY:mainCRTStartup")
 endif()
 
-set(CMAKE_CXX_FLAGS "-std=c++11 -stdlib=libc++")
+set(CMAKE_CXX_FLAGS "-std=c++11 -stdlib=libc++ -lc++abi")
 target_link_libraries(Azteroids entityx glfw ${GLFW_LIBRARIES} ${GLUT_LIBRARIES})
 

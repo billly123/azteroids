@@ -1,4 +1,4 @@
-#include <OpenGL/gl.h>
+#include <GL/gl.h>
 
 #include <components/appearance/appearance.h>
 #include <components/mass.h>

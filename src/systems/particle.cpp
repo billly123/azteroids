@@ -1,5 +1,4 @@
-#include <OpenGL/gl.h>
-
+#include <GL/gl.h>
 #include <components/particle.h>
 
 #include "particle.h"
